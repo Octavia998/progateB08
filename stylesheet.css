@@ -1,3 +1,14 @@
+@keyframes typing {
+ from {width: 0}
+ to {display: inline-block; width: 100%}
+}
+
+@keyframes cursor {
+	from, to { border-color: transparent; }
+    50% { border-color: #ffba93; }
+}
+
+
 html, body,
 ul, ol, li,
 h1, h2, h3, h4, h5, h6, p, div {
@@ -80,8 +91,16 @@ header {
 }
 
 .top-wrapper h1 {
-	padding-bottom: 10px;
+	border-right: .15em solid #ffba93;
+	max-width: fit-content;
+	display: inline-block;
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 0 auto;
+	padding: 0 15px 10px 5px;
 	font-size: 75px;
+	animation: typing 3.5s steps(40, end),
+			   cursor .75s step-end infinite;
 }
 
 .top-wrapper h3 {
@@ -95,3 +114,91 @@ header {
 	opacity: 1;
 }
 
+.profile-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #FFEBCD;
+  text-align: center;
+  height: 600px;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: black;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.profile {
+  float: left;
+  width: 20%;
+}
+
+.profile-picture {
+  position: relative;
+}
+
+.profile-picture p {
+	font-size: 14px;
+  position: absolute;
+  width: 100%;
+  color: black;
+  top: 340px;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: black;
+}
+
+.profile-picture img {
+  width: 200px;
+  border:1px;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+  object-fit: cover;
+}
+
+.btn {
+  position: absolute;
+  margin : 150px -150px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.linkedin {
+  padding: 10px 30px;
+  background-color: #FFA07A;
+  cursor: pointer;
+  box-shadow: 0 7px #FA8072;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+  background-color: #FFEBCD;
+}
+
+.quotes h2 {
+	font-size: 20px;
+  font-weight: normal;
+  font-style: oblique;
+}
+
+.quotes h3 {
+  font-style: oblique;
+}
