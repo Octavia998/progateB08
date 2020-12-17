@@ -203,3 +203,54 @@ header {
 .quotes h3 {
   font-style: oblique;
 }
+
+.contact-form {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #FFEBCD;
+  height: 450px;
+}
+
+.heading-contact {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+input, textarea {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 20px;
+  font-size: 18px;
+  border: 1px solid #dee7ec;
+}
+
+.kirim {
+  padding: 10px 30px;
+  margin: 130px -440px;
+  background-color: #FFA07A;
+  cursor: pointer;
+  box-shadow: 0 7px #FA8072;
+}
+
+.footer {
+  background-color: rgba(255, 186, 147);
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+}
+
+footer img {
+  float: left;
+  width: 150px;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
