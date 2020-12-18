@@ -4,10 +4,6 @@
     display: none;
   }
 
-  .menu-icon {
-    display: block;
-  }
-
   .top-wrapper {
     height: 500px;
   }
@@ -65,10 +61,6 @@
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
-  }
-
-  .menu-icon {
-    display: block;
   }
 
   .top-wrapper {
