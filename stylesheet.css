@@ -55,14 +55,6 @@ header {
 	margin-top: 20px;
 }
 
-.menu-icon {
-  display: none;
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-}
-
 .header-right {
 	float: right;
 	margin-right: -25px;
